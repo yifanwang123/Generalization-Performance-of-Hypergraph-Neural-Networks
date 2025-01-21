@@ -34,9 +34,9 @@ pip install matplotlib
 source run_one_model.sh [dataset] [method] [MLP_hidden_dim] [Classifier_hidden_dim] [feature noise level]
 ```
 ## Note one single experiment with T-MPHN, please go the the `src_T-MPHN` folder first, then run with specified lr and wd:
-'''
+```
 source one_model.sh [dataset] [Num_Layer] [hidden_dim] [lr] [wd] [number_runs]
-'''
+```
 
 
 
