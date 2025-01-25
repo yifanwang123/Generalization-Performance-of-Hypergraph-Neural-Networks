@@ -2,7 +2,7 @@
 
 This is the implementation for our paper: Generalization Performance of Hypergraph Neural Networks. We prepared all codes and a subset of datasets used in our experiments.
 
-The codes and script of UniGCN, AllDeepSets and M-IGN are in the folder `src`.  T-MPHN, is in `src_T-MPHN` folder. A subset of data are provided in folder `data`. 
+Our codebase is built on (AllSet/AllSet and T-HyperGNNs/T-HyperGNNs) and has similar dependencies and model architecture. The codes and script of UniGCN, AllDeepSets and M-IGN are in the folder `src`.  T-MPHN, is in `src_T-MPHN` folder. A subset of data are provided in folder `data`. 
 
 
 ## Enviroment requirement:
