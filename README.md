@@ -2,11 +2,11 @@
 
 This is the implementation for our paper: Generalization Performance of Hypergraph Neural Networks. We prepared all codes and a subset of datasets used in our experiments.
 
-Our codebase is built on (AllSet/AllSet and T-HyperGNNs/T-HyperGNNs) and has similar dependencies and model architecture. The codes and script of UniGCN, AllDeepSets and M-IGN are in the folder `src`.  T-MPHN, is in `src_T-MPHN` folder. A subset of data are provided in folder `data`. 
+Our codebase is built on [AllSet](https://github.com/jianhao2016/AllSet) and [T-HyperGNNs](https://github.com/wangfuli/T-HyperGNNs) and has similar dependencies and model architecture. The codes and scripts of UniGCN, AllDeepSets, and M-IGN are in the folder `src`.  T-MPHN, is in `src_T-MPHN` folder. Datasets is provided in the folder `data`. 
 
 
-## Enviroment requirement:
-The models are tested with the following enviroment. First, let's setup a conda enviroment:
+## Environment requirement:
+The models are tested with the following environment. First, let's setup a conda environment:
 ```
 conda create -n "HyperGNNs" python=3.7
 conda activate HyperGNNs
@@ -20,7 +20,7 @@ pip install torch-sparse==0.6.0 -f https://pytorch-geometric.com/whl/torch-1.4.0
 pip install torch-cluster==1.5.2 -f https://pytorch-geometric.com/whl/torch-1.4.0+cu100.html
 pip install torch-geometric==1.6.3 -f https://pytorch-geometric.com/whl/torch-1.4.0+cu100.html
 ```
-Finally, install some relative packages
+Finally, install some related packages
 
 ```
 pip install ipdb
@@ -29,7 +29,7 @@ pip install scipy
 pip install matplotlib
 ```
 
-## Run one single experiment with any one model of UniGCN, AllDeepSets and M-IGN with specified lr and wd, please go the the `src` folder: 
+## Run one single experiment with any one model of UniGCN, AllDeepSets, and M-IGN with specified lr and wd, please go the the `src` folder: 
 ```
 source run_one_model.sh [dataset] [method] [MLP_hidden_dim] [Classifier_hidden_dim] [feature noise level]
 ```
