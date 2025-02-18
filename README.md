@@ -37,6 +37,6 @@ source run_one_model.sh [dataset] [method] [MLP_hidden_dim] [Classifier_hidden_d
 ```
 source one_model.sh [dataset] [Num_Layer] [hidden_dim] [lr] [wd] [number_runs]
 ```
-
+## Data access: [link](https://drive.google.com/file/d/1YuhJt7iEZmVRfHNmqDjobmcbmHpr3dwK/view?usp=sharing)
 
 
